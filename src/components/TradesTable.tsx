@@ -11,7 +11,11 @@ type Trade = {
 };
 
 const placeholderTrades: Trade[] = [
+  { politician: "Susie Lee", party: "D", chamber: "House", ticker: "META", type: "Buy", amount: "$100K–$250K", date: "2026-08-05", entryPrice: 615.0, currentPrice: 642.1 },
+  { politician: "Marjorie Taylor Greene", party: "R", chamber: "House", ticker: "TSLA", type: "Buy", amount: "$50K–$100K", date: "2026-08-01", entryPrice: 245.0, currentPrice: 268.4 },
+  { politician: "Michael McCaul", party: "R", chamber: "House", ticker: "AMZN", type: "Sell", amount: "$250K–$500K", date: "2026-07-30", entryPrice: 228.0, currentPrice: 234.75 },
   { politician: "Nancy Pelosi", party: "D", chamber: "House", ticker: "NVDA", type: "Buy", amount: "$1M–$5M", date: "2026-07-28", entryPrice: 172.5, currentPrice: 195.3 },
+  { politician: "Dan Crenshaw", party: "R", chamber: "House", ticker: "LMT", type: "Buy", amount: "$15K–$50K", date: "2026-07-25", entryPrice: 612.0, currentPrice: 598.5 },
   { politician: "Tommy Tuberville", party: "R", chamber: "Senate", ticker: "MSFT", type: "Sell", amount: "$15K–$50K", date: "2026-07-22", entryPrice: 512.0, currentPrice: 498.1 },
   { politician: "Josh Gottheimer", party: "D", chamber: "House", ticker: "AAPL", type: "Buy", amount: "$50K–$100K", date: "2026-07-19", entryPrice: 231.4, currentPrice: 227.9 },
   { politician: "Ro Khanna", party: "D", chamber: "House", ticker: "GOOGL", type: "Sell", amount: "$1K–$15K", date: "2026-07-15", entryPrice: 198.2, currentPrice: 210.55 },
