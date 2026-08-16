@@ -3,7 +3,7 @@ import Link from "next/link";
 const navLinks = [
   { label: "Dashboard", href: "/" },
   { label: "Politicians", href: "/politicians" },
-  { label: "About", href: "#" },
+  { label: "About", href: "/about" },
 ];
 
 export default function Header() {
