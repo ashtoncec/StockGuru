@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import TradesTable from "@/components/TradesTable";
+import { trades } from "@/lib/politicians";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
             Placeholder data — live disclosures coming soon. &quot;If You Copied&quot; shows
             the return you&apos;d have today by mirroring the trade on its disclosure date.
           </p>
-          <TradesTable />
+          <TradesTable trades={trades} />
         </section>
       </main>
     </div>
