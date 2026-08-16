@@ -21,7 +21,8 @@ export default function Home() {
             Recent Trades
           </h2>
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
-            Placeholder data — live disclosures coming soon.
+            Placeholder data — live disclosures coming soon. &quot;If You Copied&quot; shows
+            the return you&apos;d have today by mirroring the trade on its disclosure date.
           </p>
           <TradesTable />
         </section>
